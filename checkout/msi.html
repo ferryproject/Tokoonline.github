@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+   
+    <link rel="stylesheet" type="text/css" href="../checkout.css">
+  
+    <title>Checkout</title>
+</head>
+<body>
+   
+    <div class="container" style="background: transparent;">
+        <form action="" method="POST" class="login-email">
+            <p class="login-text" style="font-size: 2rem; font-weight: 800;">Checkout</p>
+            <div class="input-group">
+              <input type="text" id="barang" disabled placeholder="barang" name="barang" value="MSI GF63" required>
+          </div>
+            <div class="input-group">
+                <input type="text" id="harga" disabled placeholder="" name="harga" value="Rp 10.100.000" required>
+            </div>
+            <div class="input-group">
+              <input type="text" id="nama"  placeholder="Nama pembeli" name="nama" value="" required>
+          </div>
+          <div class="input-group">
+            <input type="text" id="alamat"  placeholder="Alamat tujuan" name="alamat" value="" required>
+        </div>
+            <div class="input-group">
+                <button onclick="kirimWhatsApp()" name="submit" class="btn">Checkout</button>
+            </div>
+           
+        </form>
+    </div>
+  
+
+  <script src="../script.js"></script>
+</body>
+</html>
